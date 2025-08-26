@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>My Resume</h1>
+    <p>Vikash Maurya</p>
+    <p>Email: vikashmaurya861@gmail.com</p>
+    <p>MERN Stack Developer</p>
+    <p>Skills:</p>
+    <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>React</li>
+        <li>Node.js</li>
+    </ul>
+    <p>Links:</p>
+    <ul>
+        <li><a href="https://github.com/Alpha-vik">GitHub Profile</a></li>
+        <li><a href="https://www.linkedin.com/in/vikashmaurya/">LinkedIn Profile</a></li>
+    </ul>
+    <div x-data="{scrollTop: false}" class="fixed bottom-8 right-8 z-[99] rb" @click="window.scrollTo({top: 0, behavior: 'smooth'})" @scroll.window="scrollTop = (window.pageYOffset &gt; 50) ? true : false" :class="{ 'rb' : scrollTop }">
+    <div class="hover:shadow-signUp flex h-10 w-10 cursor-pointer items-center justify-center rounded-full bg-[#252a42] text-white shadow-md transition duration-300 ease-in-out hover:bg-opacity-80 select-none">
+      <span class="mt-[6px] h-3 w-3 rotate-45 border-l border-t border-white">
+
+      </span>
+      <div class="hover:shadow-signUp flex h-10 w-10 cursor-pointer items-center justify-center rounded-full bg-[#252a42] text-white shadow-md transition duration-300 ease-in-out hover:bg-opacity-80 select-none">
+      <span class="mt-[6px] h-3 w-3 rotate-45 border-l border-t border-white">
+
+      </span>
+    </div>
+    </div>
+  </div>
+</body>
+</html>
