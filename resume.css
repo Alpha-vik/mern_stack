@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    background-color: #d5edec;
+}
+
+h1 {
+    text-align: center;
+    margin: 20px 0;
+    color: hsl(0, 44%, 45%);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+h2 {
+    margin: 10px 0;
+    color: hsla(0, 51%, 32%, 0.795);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+p {
+    margin: 1px 0;
+    line-height: 1.6;
+    color: #333;
+    font-size: 16px;
+    font-weight: bold;
+}
+ul {
+    list-style-type: square;
+    margin: 10px 20px;
+    padding: 0;
+}
