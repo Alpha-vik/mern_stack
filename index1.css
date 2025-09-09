@@ -4,21 +4,64 @@
     box-sizing: border-box;
     text-align: center;
 }
-h1#heading1{
-    font-size: 30px;
-    margin-bottom: 10px;
-    background-color: lightsalmon;
-    font-style: italic;
+
+nav{
+    display: flex;
+    gap: 30px;
+    background-color: rgb(196, 121, 121);
+    padding: 10px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    justify-content: space-between;
 }
-h1#heading2{
-    font-size: 30px;
-    margin-bottom: 10px;
-    background-color: lightblue;
-    font-style: oblique;
+span.x-icon {
+    margin: 1px;
+    font-size: 20px;
+    cursor: pointer;
+    margin-left: 40px;
 }
-h1#heading3{
-    font-size: 30px;
-    margin-bottom: 10px;
-    background-color: lightsalmon;
-    font-style: bold;
+
+
+/* fieldset{
+    width: 50%;
+    height: auto;
+    margin: auto;
+    margin-top: 20px;
+    padding: 20px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    background-color: rgb(179, 179, 255);
+}
+fieldset h1{
+    margin: 100px 0;
+    border: 10px solid rgb(198, 156, 156);
+    border-radius: 50%;
+    font-size: 24px;
+    color: rgb(0, 0, 0);
+} */
+
+h1#box1{
+    margin: 50px 0;
+    border: 10px;
+    font-size: 24px;
+    color: rgb(128, 76, 76);
+    position: relative;
+}
+
+h1#box2{
+    margin: 50px 0;
+    border: 10px;
+    font-size: 24px;
+    color: rgb(128, 76, 76);
+    position: absolute;
+}
+
+h1#box3{
+    margin: 50px 0;
+    border: 10px;
+    font-size: 24px;
+    color: rgb(128, 76, 76);
+    position: static;
 }
